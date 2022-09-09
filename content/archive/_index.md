@@ -19,7 +19,7 @@ This page contains exercises, test sets and solutions of several contests. You c
 # Other archives
  * [ICPC World Finals Problem archive](https://icpc.global/worldfinals/problems)
  * [Open Kattis Problem Sources](https://open.kattis.com/problem-sources)
- * [Uva Online judge](https://onlinejudge.org/)
+ * [UVa Online Judge](https://onlinejudge.org/ "Hosted by University of Valladolid")
 
 # DAPC Archive
 These problem sets are shared across all preliminary contests in the Benelux.
