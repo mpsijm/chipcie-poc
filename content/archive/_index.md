@@ -3,6 +3,7 @@ linkTitle: "Archive"
 title: "The CHipCie Problem Set Archive"
 description: "Problems, solutions and explanations"
 type: page
+layout: single
 weight: 500
 featured_image: /images/YAW02258.webp
 featured_image_alignment: bottom
@@ -18,7 +19,7 @@ This page contains exercises, test sets and solutions of several contests. You c
 # Other archives
  * [ICPC World Finals Problem archive](https://icpc.global/worldfinals/problems)
  * [Open Kattis Problem Sources](https://open.kattis.com/problem-sources)
- * [Uva Online judge](https://onlinejudge.org/)
+ * [UVa Online Judge](https://onlinejudge.org/)
 
 # DAPC Archive
 These problem sets are shared across all preliminary contests in the Benelux.
