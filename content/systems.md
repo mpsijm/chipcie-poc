@@ -51,7 +51,7 @@ The software configuration will consist of the following:
     - Plugins:
       - PyDev
   - Visual Studio Code
-    - Version: 1.67.0
+    - Version: 1.71.1
     - Plugins:
       - C/C++ - Microsoft
       - C# - Microsoft
@@ -70,13 +70,13 @@ The software configuration will consist of the following:
 The following languages are allowed during the contest:
 
 - Java
-  - Version: 17.0.3
-- C 9.4
-  - Version: 9.4
-- C++ 9.4
-  - Version: 9.4
+  - Version: 17.0.4
+- C
+  - Version: 11.2.0
+- C++
+  - Version: 11.2.0
 - Python
-  - Version: PyPy 7.3.9 with GCC 9.4.0, Python 3.8.13
+  - Version: PyPy 7.3.9 (Python 3.8.13)
 - Kotlin
   - Version: 1.6.0
 
@@ -128,6 +128,7 @@ The following reference materials will be available on the teams' workstations t
 
 - [C reference from cppreference.com](https://en.cppreference.com/w/c)
 - [C++ reference from cppreference.com](https://en.cppreference.com/w/cpp)
-- [Python 3.8.10 documentation](https://docs.python.org/3.8/)
+- [Python 3.10.4 documentation](https://docs.python.org/3.10/)
 - [Java® Platform, Standard Edition & Java Development Kit Version 17 API Specification](https://docs.oracle.com/en/java/javase/17/docs/api/)
 - [Kotlin Language Documentation 1.6.20 (As PDF)](https://kotlinlang.org/docs/kotlin-reference.pdf)
+- [DOMjudge Team Manual (As PDF)](https://www.domjudge.org/docs/manual/8.1/team.html)
