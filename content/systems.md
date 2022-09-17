@@ -1,5 +1,7 @@
 ---
 title: Systems
+featured_image: /images/YAW02252.webp
+featured_image_alignment: top
 type: page
 weight: 20
 menu: main
