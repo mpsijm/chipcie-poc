@@ -75,10 +75,14 @@ Any problems or questions you encounter, ask either the runners, in a clarificat
 
 ## Understanding the problem format
 The problems in a contest are formatted in a standard way: they have a story to provide the context, followed by a technical specification of the input and output.
-You don't have to check the input, the input is correct without extra spaces or newlines. Be sure to follow the output 
-specification. Some contests allow for minor extra white spaces to be ignored, but not all contests allow this.
+You don't have to check whether the input is valid,
+the input will always exactly follow the specifications
+without extra spaces or newlines.
+Be sure to follow the output specification.
+Some contests allow for minor extra white spaces in the output to be ignored,
+but not all contests allow this.
 
-For problems with real-valued output, we generally only require that your output is correct up to a certain either relative or absolute error. 
+Problems with real-valued output generally only require that your output is correct up to a certain either relative or absolute error.
 For example, if the problem statement requests a relative or absolute error of at most 10{{< sup "−6">}}, this means that:
 
 * If the correct answer is `0.005`, any answer between `0.004999` and `0.005001` will be accepted.
@@ -91,20 +95,20 @@ Note that this won't be accepted if the output specifies an integer, then only `
 When you submit a problem to the judging system, your problem is automatically judged against test cases. The cases include both
 the sample cases given in your problem statement, and secret cases that will cover the extreme cases and corner cases.
 
-For running and compiling against the testcases you have a single core available and limited memory. If you try to 
-circumvent this with `fork` (C/C++) or creating `Threads` (Java/Kotlin), this will be a cause for disqualification. 
+For running and compiling against the testcases you have a single core available and limited memory. If you try to
+circumvent this with `fork` (C/C++) or creating `Threads` (Java/Kotlin), this will be a cause for disqualification.
 
 There is a time limit given on each problem statement. Each testcase has to finish in this time limit. In this time includes
-running the program, if applicable starting the jvm or interpreter, reading the input and outputting your answer. 
+running the program, starting the JVM or interpreter (if applicable), parsing the input and outputting your answer.
 
 If you are afraid that you solution runs within the time limit, you can generate
-a maximum input test case and measure the runtime on your machine with the [`time`](https://www.man7.org/linux/man-pages/man1/time.1.html) command. 
+a maximum input test case and measure the runtime on your machine with the [`time`](https://www.man7.org/linux/man-pages/man1/time.1.html) command.
 
 The organisation of a contest tries to make the machines for judging and contestants equal, but this is not always the case.
-Therefor the timing on your machine is no guarantee for the timing on the judge host.
+Therefore, the timing on your machine is no guarantee for the timing on the judge host.
 
 ## More hints from the jury
-The BAPC jury 2022 have provided advice and hints on understanding the problem format at [jury.bapc.eu/hints](https://jury.bapc.eu/hints/).
+The BAPC jury have provided advice and hints on understanding the problem format at [jury.bapc.eu/hints](https://jury.bapc.eu/hints/).
 This page also contains general information on how submissions are judged during a contest,
 as well as tips about interactive problems.
 
