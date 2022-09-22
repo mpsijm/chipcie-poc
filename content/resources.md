@@ -83,7 +83,7 @@ Some contests allow for minor extra white spaces in the output to be ignored,
 but not all contests allow this.
 
 Problems with real-valued output generally only require that your output is correct up to a certain either relative or absolute error.
-For example, if the problem statement requests a relative or absolute error of at most 10{{< sup "−6">}}, this means that:
+For example, if the problem statement requests a relative or absolute error of at most 10<sup>−6</sup>, this means that:
 
 * If the correct answer is `0.005`, any answer between `0.004999` and `0.005001` will be accepted.
 * If the correct answer is `500`, any answer between `499.9995` and `500.0005` will be accepted.

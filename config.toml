@@ -8,8 +8,11 @@ SectionPagesMenu = "main"
 Paginate = 5
 enableRobotsTXT = true
 
-RelativeURLs=true
-CanonifyURLs=true
+RelativeURLs = true
+CanonifyURLs = true
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [params]
   favicon = ""
