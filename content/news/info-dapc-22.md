@@ -1,6 +1,6 @@
 ---
 title: "Information Mail DAPC 2022"
-date: 2022-09-02T09:00:00+02:00
+date: 2022-09-21T09:00:00+02:00
 tags: ["news", "DAPC 2022"]
 draft: false
 ---
