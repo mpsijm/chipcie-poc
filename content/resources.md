@@ -37,6 +37,7 @@ Other situations that can occur during the contest:
  * Which problems get priority on the computer?
 
 # During the Contest
+
 ## Team Contest Reference (TCR)
 Starting from the BAPC, you are no longer allowed to bring all the documentation. Instead you can bring three identical
 copies of a Team Contest Reference (TCR). The TCR contains up to 25 single-sided (or 12 double-sided) A4 pages reference
@@ -72,10 +73,50 @@ so you won’t have to lose time on with it during the real contest.
 
 Any problems or questions you encounter, ask either the runners, in a clarification request or to your coach.
 
+## Understanding the problem format
+The problems in a contest are formatted in a standard way: they have a story to provide the context, followed by a technical specification of the input and output.
+You don't have to check whether the input is valid,
+the input will always exactly follow the specifications
+without extra spaces or newlines.
+Be sure to follow the output specification.
+Some contests allow for minor extra white spaces in the output to be ignored,
+but not all contests allow this.
+
+Problems with real-valued output generally only require that your output is correct up to a certain either relative or absolute error.
+For example, if the problem statement requests a relative or absolute error of at most 10{{< sup "−6">}}, this means that:
+
+* If the correct answer is `0.005`, any answer between `0.004999` and `0.005001` will be accepted.
+* If the correct answer is `500`, any answer between `499.9995` and `500.0005` will be accepted.
+
+In these cases, any reasonable format for floating point numbers is acceptable. For instance, `17.000000`, `0.17e2`, and `17` are accepted ways of formatting the number `17`.
+Note that this won't be accepted if the output specifies an integer, then only `17` is accepted.
+
+## Understanding how the solutions are run
+When you submit a problem to the judging system, your problem is automatically judged against test cases. The cases include both
+the sample cases given in your problem statement, and secret cases that will cover the extreme cases and corner cases.
+
+For running and compiling against the testcases you have a single core available and limited memory. If you try to
+circumvent this with `fork` (C/C++) or creating `Threads` (Java/Kotlin), this will be a cause for disqualification.
+
+There is a time limit given on each problem statement. Each testcase has to finish in this time limit. In this time includes
+running the program, starting the JVM or interpreter (if applicable), parsing the input and outputting your answer.
+
+If you are afraid that you solution runs within the time limit, you can generate
+a maximum input test case and measure the runtime on your machine with the [`time`](https://www.man7.org/linux/man-pages/man1/time.1.html) command.
+
+The organisation of a contest tries to make the machines for judging and contestants equal, but this is not always the case.
+Therefore, the timing on your machine is no guarantee for the timing on the judge host.
+
+## More hints from the jury
+The BAPC jury have provided advice and hints on understanding the problem format at [jury.bapc.eu/hints](https://jury.bapc.eu/hints/).
+This page also contains general information on how submissions are judged during a contest,
+as well as tips about interactive problems.
+
 ## General tips
  * Read the output specification carefully!
  * Don't forget to remove debug prints!
  * When integers get large, use 64-bit!
  * Do not do string concatenation with + in a loop!
  * Calling functions is more expensive than you might think!
+ * For Java, `BufferedReader` is faster than `Scanner`!
  * Don't forget to eat and drink. Programming contest is a sport, and you need to be energised and focussed for 5 hours.
