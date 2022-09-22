@@ -1,0 +1,13 @@
+contest:
+  name: NWERC 2022
+  date: Delft, November 25-27
+  type: nwerc
+  year: 2022
+resources:
+  problems:
+  slides:
+  data:
+links:
+  photos:
+  website: https://2022.nwerc.eu/
+  result:
