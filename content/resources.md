@@ -37,6 +37,7 @@ Other situations that can occur during the contest:
  * Which problems get priority on the computer?
 
 # During the Contest
+
 ## Team Contest Reference (TCR)
 Starting from the BAPC, you are no longer allowed to bring all the documentation. Instead you can bring three identical
 copies of a Team Contest Reference (TCR). The TCR contains up to 25 single-sided (or 12 double-sided) A4 pages reference
@@ -72,10 +73,17 @@ so you won’t have to lose time on with it during the real contest.
 
 Any problems or questions you encounter, ask either the runners, in a clarification request or to your coach.
 
+## Understanding the problem format
+The problems in a contest are formatted in a standard way: they have a story to provide the context, followed by a technical specification of the input and output.
+The BAPC jury have provided advice and hints on understanding the problem format at [jury.bapc.eu/hints](https://jury.bapc.eu/hints/).
+This page also contains general information on how submissions are judged during a contest,
+as well as tips about interactive problems.
+
 ## General tips
  * Read the output specification carefully!
  * Don't forget to remove debug prints!
  * When integers get large, use 64-bit!
  * Do not do string concatenation with + in a loop!
  * Calling functions is more expensive than you might think!
+ * For Java, `BufferedReader` is faster than `Scanner`!
  * Don't forget to eat and drink. Programming contest is a sport, and you need to be energised and focussed for 5 hours.
