@@ -38,16 +38,15 @@
     {{end}}
   </td>
   <td class="archive-link">
-    {{if .links.result }}
-    <a href="{{.links.result}}" target="_blank">
-      <span class="material-symbols-outlined icon" title="Scoreboard">
-        scoreboard
-      </span>
-    </a>
+    {{if .links.result}}
+    <a href="{{.links.result}}" target="_blank"><span class="material-symbols-outlined icon" title="Scoreboard">scoreboard</span></a>
+    {{end}}
+    {{if .links.merged}}
+    <a href="{{.links.merged}}" target="_blank"><span class="material-symbols-outlined icon" title="Merged">merge</span></a>
     {{end}}
   </td>
   <td class="archive-link">
-    {{if .links.photos }}
+    {{if .links.photos}}
     <a href="{{.links.photos}}" target="_blank">
       <span class="material-symbols-outlined icon" title="Photos">
         photo_library

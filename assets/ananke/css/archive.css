@@ -13,6 +13,7 @@
 .archive-link {
     text-align: center;
     width: 3em;
+    white-space: nowrap;
 }
 
 .archive th {
