@@ -4,10 +4,10 @@ contest:
   type: bapc
   year: 2022
 resources:
-  problems:
-  slides:
-  data:
+  problems: problemset.pdf
+  slides: solutions.pdf
+  data: solutions.zip
 links:
   photos:
   website: https://2022.bapc.eu/
-  result:
+  result: /archive/2022/bapc/scoreboard/
