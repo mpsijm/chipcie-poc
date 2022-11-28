@@ -4,10 +4,10 @@ contest:
   type: nwerc
   year: 2022
 resources:
-  problems:
-  slides:
-  data:
+  problems: problem-set.pdf
+  slides: solutions.pdf
+  data: solutions.zip
 links:
   photos:
   website: https://2022.nwerc.eu/
-  result:
+  result: /archive/2022/nwerc/scoreboard/
