@@ -82,11 +82,17 @@ Be sure to follow the output specification.
 Some contests allow for minor extra white spaces in the output to be ignored,
 but not all contests allow this.
 
-Problems with real-valued output generally only require that your output is correct up to a certain either relative or absolute error.
-For example, if the problem statement requests a relative or absolute error of at most 10<sup>−6</sup>, this means that:
+Problems with real-valued output
+generally only require that your output is correct
+up to a certain absolute or relative error.
+In the case that both are specified, the largest of the two applies.
+For example, if the problem statement requests an
+"absolute or relative error of at most 10<sup>−6</sup>", this means that:
 
-* If the correct answer is `0.005`, any answer between `0.004999` and `0.005001` will be accepted.
-* If the correct answer is `500`, any answer between `499.9995` and `500.0005` will be accepted.
+* If the correct answer is `0.005`, any answer between `0.004999` and `0.005001` will be accepted.<br>
+  The absolute error of ±10<sup>−6</sup> is larger than the relative error of ±5 · 10<sup>−9</sup> (= 0.005 · 10<sup>−6</sup>).
+* If the correct answer is `500`, any answer between `499.9995` and `500.0005` will be accepted.<br>
+  The relative error of ±0.005 (= 5000 · 10<sup>−6</sup>) is larger than the absolute error of ±10<sup>−6</sup>.
 
 In these cases, any reasonable format for floating point numbers is acceptable. For instance, `17.000000`, `0.17e2`, and `17` are accepted ways of formatting the number `17`.
 Note that this won't be accepted if the output specifies an integer, then only `17` is accepted.
