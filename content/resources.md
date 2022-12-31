@@ -113,8 +113,8 @@ a maximum input test case and measure the runtime on your machine with the [`tim
 The organisation of a contest tries to make the machines for judging and contestants equal, but this is not always the case.
 Therefore, the timing on your machine is no guarantee for the timing on the judge host.
 
-## More hints from the jury
-The BAPC jury have provided advice and hints on understanding the problem format at [jury.bapc.eu/hints](https://jury.bapc.eu/hints/).
+## More advice from the jury
+The BAPC jury have provided advice and hints on understanding the problem format at [jury.bapc.eu/advice](https://jury.bapc.eu/advice/).
 This page also contains general information on how submissions are judged during a contest,
 as well as tips about interactive problems.
 
