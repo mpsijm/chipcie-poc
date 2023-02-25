@@ -1,4 +1,4 @@
-baseURL = 'https://commissies.ch.tudelft.nl/chipcie'
+baseURL = 'https://chipcie.wisv.ch'
 languageCode = 'en-gb'
 title = 'CHipCie'
 theme = "ananke"
@@ -22,6 +22,7 @@ CanonifyURLs = true
   recent_posts_number = 0
   custom_css = ["archive.css"]
   mainSections = ['news']
+  env = "production"
 
 [sitemap]
   changefreq = "monthly"
