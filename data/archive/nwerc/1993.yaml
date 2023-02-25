@@ -1,10 +1,10 @@
 contest:
-  name: NWERC 1993
-  date: Swansea
+  name: WERC 1993
+  date: Swansea, 14 November
   type: nwercpc
   year: 1993
 resources:
-  problems: problemset.pdf # TODO first 4 problems only
+  problems: nwerc93.pdf
   slides:
   data:
 links:

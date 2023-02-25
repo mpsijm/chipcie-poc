@@ -1,10 +1,10 @@
 contest:
   name: NWERC 1995
-  date: Amsterdam (VU)
+  date: Amsterdam (VU), 10-11 November
   type: nwercpc
   year: 1995
 resources:
-  problems: problemset.pdf # TODO first 4 problems only
+  problems: nwerc95.pdf
   slides:
   data:
 links:

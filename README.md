@@ -46,9 +46,10 @@ If you prefer to not duplicate the archive on disk, you can create a symlink: `c
 
 ## Future Todos
  - [ ] Scan in old problem sets (marked to be in the old physical problem set archive)
-   - [ ] DAPC 1990, 1991, 1992
-   - [ ] NKP 1992, 1994, 1995, 2001(maybe, hopefully)
-   - [ ] NWERC 1988, 1990, 1991, 1995 (double check 1989 if only 4 problems)
+   - [X] DAPC 1990, 1991, 1992
+   - [X] NKP 1992, 1994, 1995
+   - [ ] NKP 2002
+   - [X] NWERC 1988, 1990, 1991, 1995 (double check 1989 if only 4 problems)
  - [ ] Search old chipcie drive for scoreboard dkp 2011 and 1998-
  - [ ] Search old CHipCie drive for problem sets FPC 2017, 2013, 2010, 2009, 2008, 2005
  - [X] Add pictures from new ch picture site once it works again(dapc 2019 and up)

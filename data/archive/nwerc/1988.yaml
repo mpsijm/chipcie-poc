@@ -1,10 +1,10 @@
 contest:
-  name: NWERC 1988
-  date: Eindhoven
+  name: ERC 1988
+  date: Eindhoven, November 12
   type: nwercpc
   year: 1988
 resources:
-  problems:
+  problems: ERC88.pdf
   slides:
   data:
 links:

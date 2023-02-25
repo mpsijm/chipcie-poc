@@ -1,13 +1,13 @@
 contest:
-  name: NWERC 1990
-  date: Eindhoven
+  name: ERC 1990
+  date: Eindhoven, November 3
   type: nwercpc
   year: 1990
 resources:
-  problems:
+  problems: ERP90.pdf
   slides:
   data:
 links:
   photos:
   website:
-  result:
+  result: /archive/1990/nwercpc/scoreboard.pdf
