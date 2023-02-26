@@ -1,10 +1,10 @@
 contest:
   name: NWERC 2001
   date: Darmstadt, November 4
-  type: ekp
+  type: nwerc
   year: 2001
 resources:
-  problems: ek01.pdf
+  problems: nwerc01.pdf
   slides:
   data:
 links:

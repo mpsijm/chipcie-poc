@@ -1,10 +1,10 @@
 contest:
   name: NWERC 1998
   date: "'s-Hertogenbosch, November 22"
-  type: ekp
+  type: nwerc
   year: 1998
 resources:
-  problems: ek98.pdf
+  problems: nwerc98.pdf
   slides:
   data:
 links:

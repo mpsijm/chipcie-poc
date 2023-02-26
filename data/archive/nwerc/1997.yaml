@@ -1,10 +1,10 @@
 contest:
   name: NWERC 1997
   date: Delft
-  type: ekp
+  type: nwercpc
   year: 1997
 resources:
-  problems: ek97.pdf
+  problems: nwercpc97.pdf
   slides:
   data:
 links:
