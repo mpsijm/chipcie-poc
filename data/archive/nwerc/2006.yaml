@@ -1,7 +1,7 @@
 contest:
   name: NWERC 2006
   date: Stockholm, November 17-19
-  type: EKP
+  type: nwerc
   year: 2006
 resources:
   problems: nwerc06.pdf

@@ -1,10 +1,10 @@
 contest:
   name: NKP 1992
-  date: Nijmegen
+  date: Nijmegen, October 24
   type: nkp
   year: 1992
 resources:
-  problems:
+  problems: nkp92.pdf
   slides:
   data:
 links:

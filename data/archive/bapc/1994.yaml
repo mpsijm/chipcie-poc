@@ -1,10 +1,10 @@
 contest:
   name: NKP 1994
-  date: Amsterdam (UvA)
+  date: Amsterdam (UvA), October 8
   type: nkp
   year: 1994
 resources:
-  problems:
+  problems: nkp94.pdf
   slides:
   data:
 links:

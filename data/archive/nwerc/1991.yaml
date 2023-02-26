@@ -1,10 +1,10 @@
 contest:
-  name: NWERC 1991
+  name: ERC 1991
   date: Gent
   type: nwercpc
   year: 1991
 resources:
-  problems:
+  problems: ERC91.pdf
   slides:
   data:
 links:

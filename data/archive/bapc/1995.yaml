@@ -1,10 +1,10 @@
 contest:
   name: NKP 1995
-  date: Twente
+  date: Twente, October 14
   type: nkp
   year: 1995
 resources:
-  problems:
+  problems: nkp95.pdf
   slides:
   data:
 links:

@@ -1,7 +1,7 @@
 contest:
   name: NWERC 2003
-  date: Lund, November 13
-  type: ekp
+  date: Lund, November 15-16
+  type: nwerc
   year: 2003
 resources:
   problems: NWERC03.pdf

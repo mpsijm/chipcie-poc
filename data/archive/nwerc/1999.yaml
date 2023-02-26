@@ -1,13 +1,14 @@
 contest:
   name: NWERC 1999
   date: "'s-Hertogenbosch, November 13-14"
-  type: ekp
+  type: nwerc
   year: 1999
 resources:
-  problems: ek99.pdf
+  problems: nwerc99.pdf
   slides:
   data:
 links:
   photos:
-  website:
+  website: https://web.archive.org/web/20040904181649/http://icpc.baylor.edu/past/icpc2000/regionals/NWERC99/Report.html
+  # icpc: https://web.archive.org/web/20041025151322/http://icpc.baylor.edu/past/icpc2000/regionals/Report.html
   result: https://web.archive.org/web/20070205103953/http://icpc.baylor.edu:80/past/icpc2000/regionals/NWERC99/Standings.html

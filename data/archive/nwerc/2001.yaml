@@ -1,13 +1,14 @@
 contest:
   name: NWERC 2001
-  date: Darmstadt, November 4
-  type: ekp
+  date: Darmstadt, November 2-4
+  type: nwerc
   year: 2001
 resources:
-  problems: ek01.pdf
+  problems: nwerc01.pdf
   slides:
   data:
 links:
   photos:
-  website:
-  result:
+  website: https://web.archive.org/web/20041118004052/http://icpc.baylor.edu/past/icpc2002/regionals/NWERC01/default.asp
+  # icpc: https://web.archive.org/web/20041025164909/http://icpc.baylor.edu/past/icpc2002/regionals/report.html
+  result: https://web.archive.org/web/20031006200811/http://icpc.tu-darmstadt.de/standings/

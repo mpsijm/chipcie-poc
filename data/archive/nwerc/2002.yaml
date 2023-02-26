@@ -1,7 +1,7 @@
 contest:
   name: NWERC 2002
-  date: Delft, November 17
-  type: ekp
+  date: Delft, November 15-17
+  type: nwerc
   year: 2002
 resources:
   problems: Problem.pdf
@@ -10,4 +10,5 @@ resources:
 links:
   photos:
   website: https://commissies.ch.tudelft.nl/icpc/
-  result: /archive/2002/ekp/score-final-wc.html
+  # icpc: https://web.archive.org/web/20041025171752/http://icpc.baylor.edu/past/icpc2003/regionals/Report.html
+  result: /archive/2002/nwerc/score-final-wc.html

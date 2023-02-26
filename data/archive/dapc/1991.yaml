@@ -1,12 +1,12 @@
 problemset:
   pdf:
 contest:
-  name: DKP 1991
+  name: SWEP 1991
   date:
   type: vnkp
   year: 1991
 resources:
-  problems:
+  problems: swep91.pdf
   slides:
   data:
 links:

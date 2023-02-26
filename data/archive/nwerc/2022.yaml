@@ -8,6 +8,6 @@ resources:
   slides: solutions.pdf
   data: solutions.zip
 links:
-  photos:
+  photos: https://2022.nwerc.eu/photos
   website: https://2022.nwerc.eu/
   result: /archive/2022/nwerc/scoreboard/
