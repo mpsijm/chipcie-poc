@@ -1,6 +1,6 @@
 contest:
   name: NWERC 1997
-  date: Delft
+  date: Delft, November 22-23
   type: nwercpc
   year: 1997
 resources:
@@ -8,6 +8,6 @@ resources:
   slides:
   data:
 links:
-  photos:
-  website:
-  result:
+  photos: https://web.archive.org/web/19980121164647/http://ch.twi.tudelft.nl/~acm/plaatjes.html
+  website: https://web.archive.org/web/19980121151309/http://ch.twi.tudelft.nl/~acm/
+  result: https://web.archive.org/web/19980121164640fw_/http://ch.twi.tudelft.nl/~acm/score.html
