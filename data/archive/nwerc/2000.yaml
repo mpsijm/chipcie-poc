@@ -1,6 +1,6 @@
 contest:
   name: NWERC 2000
-  date: Darmstadt, November 19
+  date: Darmstadt, November 17-19
   type: nwerc
   year: 2000
 resources:
@@ -9,5 +9,6 @@ resources:
   data: nwerc00uitw.zip
 links:
   photos:
-  website:
-  result:
+  website: https://web.archive.org/web/20041109092911/http://icpc.baylor.edu/past/icpc2001/Regionals/NWERC00/
+  # icpc: https://web.archive.org/web/20041025160001/http://icpc.baylor.edu/past/icpc2001/Regionals/Report.html
+  result: https://web.archive.org/web/20010124070700/http://icpc.tu-darmstadt.de/standings/
