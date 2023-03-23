@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1.4
 FROM wisvch/nginx
 # Change the config file to serve index for urls
 USER root
