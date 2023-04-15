@@ -10,14 +10,6 @@ menu: main
 This page describes current plans for the Programming Environment which will be available to each FPC 2023 team.
 **Please note that these plans are subject to change.**
 
-## Hardware
-
-The laptop will be an HP ProBook 650 G5 and will have the following hardware specifications:
-- Intel Core i5 8265U Processor
-    - 4 cores, hyperthreading disabled
-    - CPU frequency 1.6GHz, turboboost disabled
-- 8GB of RAM
-
 ## Software
 
 The software configuration will consist of the following:
@@ -75,15 +67,15 @@ The software configuration will consist of the following:
 The following languages are allowed during the contest:
 
 - C
-    - Compiler version: 11.2.0
+    - Compiler version: 11.3.0
     - Standard: gnu17
 - C++
-    - Compiler version: 11.2.0
+    - Compiler version: 11.3.0
     - Standard: gnu++20
 - Python
     - Version: PyPy 7.3.9 (Python 3.8.13)
 - Java
-    - Version: 17.0.4
+    - Version: 17.0.6
 - Kotlin
     - Version: 1.6.0
 
@@ -124,7 +116,7 @@ Source files submitted to the Judges will be compiled using the following comman
     - Available as `mykotlin`
 
 Compilation and execution as described above will take place in a “sandbox” on a dedicated judging machine.
-The judging machine will be identical to the machines used by teams (see [Hardware](#hardware)).
+The judging machine will be identical to the machines used by teams.
 
 The sandbox will allocate 2 GiB of memory; the entire program, including its runtime environment, must execute within this memory limit.
 For interpreted languages (Python, Java, and Kotlin) the runtime environment includes the interpreter (that is, the PyPy3 interpreter for Python and the JVM for Java/Kotlin).
