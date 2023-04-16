@@ -10,6 +10,9 @@ menu: main
 This page describes current plans for the Programming Environment which will be available to each FPC 2023 team.
 **Please note that these plans are subject to change.**
 
+Each team will be provided with one workstation, shared between team members.
+The configuration of each workstation will be as follows:
+
 ## Software
 
 The software configuration will consist of the following:
