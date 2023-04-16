@@ -26,7 +26,6 @@ The software configuration will consist of the following:
     - gedit
     - geany
     - kate
-    - atom
 - IDEs:
     - IntelliJ Community
         - Version: 2021.3.2
