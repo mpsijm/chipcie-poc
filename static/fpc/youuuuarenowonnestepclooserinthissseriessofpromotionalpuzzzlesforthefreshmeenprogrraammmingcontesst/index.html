@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../style.css">	
+	</head>
+	<body>
+		<table class="title">
+			<tr>
+				<td>
+					<img src="../fpc-logo.png" class="logo">
+				</td>
+				<td style="width: 70%">
+					<h1>2. Automata Cats</h1>
+					<h4>FPC 2023 Second Teaser Puzzle</h2>
+				</td>
+			</tr>
+		</table>
+
+		<div class="rainbow" style="margin: 40px 10% 40px 10%">
+			<div class="black" style="padding: 5px">
+				<div class="rainbow">
+					<div class="black" style="padding: 25px; overflow: hidden;">
+						<img src="grid.png" class="problemicon">
+						<p>
+							Your best friend Nya has created a growth model of the
+							population of cute cats. She first created a
+							test world of 8&times;8 cells and then spawned a few cats
+							at certain cells in the world. 
+							Her world progresses in generations, 
+							and at each generation the state of all cells is
+							computed based on the amount of neighbors. Each
+							cell has eight neighbors, horizontal, vertical and
+							diagonal.
+							The world does not wrap around at the borders.
+							The picture on the right shows the initial state of
+							Nya's population.
+							<br><br>
+							At each generation, the state of each cell changes
+							according to the following rules:
+						</p>
+						<ol>
+							<li>
+								A cell containing a cat survives  to the next
+								generation if it has two or three neighboring
+								cats.
+							</li>
+							<li>
+								A cat is born in an empty cell if it has
+								exactly three neighboring cats.
+							</li>
+						</ol>
+						<p>
+							These rules make up the entire simulation of Nya's
+							world. Nya simulated her world for 10 generations and
+							then appended all rows starting at the top to create the link for the last
+							FPC teaser puzzle. 
+						</p>
+
+						<h2>Input</h2>
+						<p>
+							The input to the program is a string of 64 characters
+							containing the initial state of the world as seen in
+							the picture. Every 8 characters form a row. Rows
+							start at the top. A cell
+							containing 1 is a cat.
+						</p>
+						<h2>Output</h2>
+						<p>
+							Your program should output a string of 64 characters
+							containing the appended rows of the last generation.
+							The string should not contain newlines. The output
+							of the final test brings you to the next puzzle!
+						</p>
+
+						<h2>Samples</h2>
+						<table class="code">
+							<tr>
+								<th>Sample Input</th>
+								<th>Sample Output (with newline)</th>
+							</tr>
+							<tr>
+								<td class="code">
+									00000000<br>
+									00100000<br>
+									00010000<br>
+									01110000<br>
+									00000000<br>
+									00000000<br>
+									00000000<br>
+									00000000<br>
+								</td>
+								<td class="code">
+									00000000<br>
+									00000000<br>
+									00000000<br>
+									00000000<br>
+									00000100<br>
+									00010100<br>
+									00001100<br>
+									00000000
+								</td>
+							</tr>
+						</table>
+						<h2>Final Test</h2>
+						<table class="code">
+							<tr>
+								<th>Input</th>
+								<th>Next Puzzle</th>
+							</tr>
+							<tr>
+								<td class="code">
+									01110000<br>
+									11010011<br>
+									01000100<br>
+									11101111<br>
+									01100111<br>
+									00000110<br>
+									11111000<br>
+									10011000
+
+								</td>
+								<td class="code" style="text-align: center">
+									<span
+			 class="finaloutput">https://chipcie.wisv.ch/fpc/&ltOUTPUT&gt</span>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

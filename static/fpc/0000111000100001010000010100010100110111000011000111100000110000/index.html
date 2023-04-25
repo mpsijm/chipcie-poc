@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../style.css">	
+	</head>
+	<body>
+		<table class="title">
+			<tr>
+				<td>
+					<img src="../fpc-logo.png" class="logo">
+				</td>
+				<td style="width: 70%">
+					<h1>3. Alcatraz</h1>
+					<h4>FPC 2023 Final Teaser Puzzle</h2>
+				</td>
+			</tr>
+		</table>
+
+		<div class="rainbow" style="margin: 40px 10% 40px 10%">
+			<div class="black" style="padding: 5px">
+				<div class="rainbow">
+					<div class="black" style="padding: 25px; overflow: hidden;">
+						<img src="ialcatraz.png" class="problemicon">
+						<p>
+							After breaking into the database of the TU Delft and releasing sensitive information to
+							the public, Anton the cyber criminal got the CIA looking for him. After being arrested,
+							Anton was transported to the heavily guarded prison Alcatraz. Disabling the security
+							system was a piece of cake, so he could easily get outside of the prison walls. However,
+							behind these walls a number of guards are positioned and they will immediately sound
+							the alarm if they spot any escaped prisoner.
+							<br><br>
+							To escape, Anton needs to cross a field with width
+							10 and height 10 that is being guarded by 3 guards.
+							He starts
+							at position (0, 0) and can only escape if he reaches
+							position (10, 10) without being spotted. Some
+							guards have better views than others, so every of
+							the three guards has an associated range of view.
+							If the distance between Anton and a guard is less
+							than that guard's view range,
+							then the guard will sound the alarm and Anton 
+							will return to his cell.
+							<br><br>
+							Your job is now to find out whether Anton can
+							escape Alcatraz or if he cannot escape without being
+							spotted. 
+						</p>
+
+						<h2>Input</h2>
+						<p>
+							A file containing multiple setups of initial positions for the
+							three guards. One setup consists of three lines with
+							each line containing a guard's X, Y, and view radius R as
+							integers from 1-9.
+						</p>
+						<h2>Output</h2>
+						<p>
+							A string containing a character 0 or 1 for each setup. If
+							it is possible to escape the setup, then the
+							character is a 1, else 0. Your output should contain
+							lines/3 characters.
+						</p>
+
+						<h2>Samples</h2>
+						<table class="code">
+							<tr>
+								<th>Sample Input</th>
+								<th>Sample Output<th>
+							</tr>
+							<tr>
+								<td class="code">
+									8 2 7<br>
+									5 3 2<br>
+									4 5 1<br>
+								</td>
+								<td class="code">
+									1
+								</td>
+							</tr>
+							<tr>
+								<td class="code">
+									5 7 2<br>
+									2 8 5<br>
+									6 1 2<br>
+									5 8 3<br>
+									5 9 3<br>
+									8 9 1<br>
+								</td>
+								<td class="code">
+									11
+								</td>
+							</tr>
+						</table>
+						<h2>Final Test</h2>
+						<table class="code">
+							<tr>
+								<th>Input</th>
+								<th>Next Puzzle</th>
+							</tr>
+							<tr>
+								<td class="code" style="text-align: center">
+									<a href="cases.txt">cases.txt</a>
+								</td>
+								<td class="code" style="text-align: center">
+									<span
+			 class="finaloutput">https://chipcie.wisv.ch/fpc/&ltOUTPUT&gt</span>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
