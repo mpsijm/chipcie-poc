@@ -1,0 +1,112 @@
+* { 
+	margin: 0;
+	padding: 0; 
+}
+
+@font-face {
+	font-family: "Chivo";
+	src: url("../chivo.ttf");
+}
+
+h1 {
+	margin-left: 15%;
+	font-family: "Chivo";
+	color: white;
+}
+
+ul, ol {
+	color: white;
+	font-family: "Serif";
+	font-size: 120%;
+	margin: 20px 20px 50px 80px;
+}
+ 
+h2 {
+	color: white;
+	font-family: "Chivo";
+	margin: 30px 20px 20px 20px;
+}
+
+h4 {
+	margin-left: 20%;
+	font-family: "Chivo";
+	color: gray;
+}
+
+p {
+	color: white;
+	font-size: 120%;
+	font-family: "Serif";
+}
+
+td.code {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	width: 50%;
+	word-wrap: break-word;
+}
+
+table.code {
+	table-layout: fixed;
+	width: 80%;
+	margin: auto;
+}
+
+th {
+	text-align: left;
+	font-weight: bold;
+}
+
+span.finaloutput {
+	color: yellow;
+}
+
+td, th {
+	font-family: "Monospace";
+	font-size: 130%;
+	color: white;
+	padding: 10px;
+}
+
+div.title {
+	margin: auto;
+	width: 400px;
+}
+
+div.black {
+	background: black;
+	border-radius: 10px;
+}
+
+div.rainbow {
+	padding: 2px;
+	background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 100%);
+	border-radius: 10px;
+
+}
+div.glitch {
+	padding: 3px;
+	background-image: linear-gradient(37deg, #404040 2%, #555500 50%, #777777 50%);
+	border-radius: 50px;
+
+}
+
+img.problemicon {
+	padding: 20px;
+	width: 30%;
+	float: right;	
+}
+
+img.logo {
+	width: 70%;
+	margin: auto;
+}
+
+table.title {
+	width: 80%;
+	margin: auto;
+}
+
+body {
+	background-color: black;
+}
