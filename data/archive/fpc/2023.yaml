@@ -1,0 +1,13 @@
+contest:
+  name: FPC 2023
+  date: May 27
+  type: fpc
+  year: 2023
+resources:
+  problems: problemset.pdf
+  slides: solutions.pdf
+  data: solutions.zip
+links:
+  photos: # https://ch.tudelft.nl/media/photos/?type_0=gallery&album_gallery_id_0=138
+  website:
+  result: /archive/2023/fpc/scoreboard/index.html
