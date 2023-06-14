@@ -8,6 +8,6 @@ resources:
   slides: solutions.pdf
   data: solutions.zip
 links:
-  photos: # https://ch.tudelft.nl/media/photos/?type_0=gallery&album_gallery_id_0=138
+  photos: https://ch.tudelft.nl/media/photos/?type_0=gallery&album_gallery_id_0=235
   website:
   result: /archive/2023/fpc/scoreboard/index.html
