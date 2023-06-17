@@ -9,6 +9,16 @@ students. The best teams will qualify to represent the Delft University of Techn
 
 The contest will take place on Saturday the 23rd of September 2023. The program will be posted here on a later date.
 
+For the contest there are two type of teams. First are *competing teams*, which are eligible for the contest following the
+ICPC rules. This requires all team members to meet one of the following conditions:
+* first year of post secondary studies in 2019 or later
+* Born in 2000 or later
+* Have not completed more than 240 points of ECTS
+
+The full details can be found in last year's [eligibility tree](https://drive.google.com/file/d/1Gt0gh7e9ubSZOr1ZpZ3liU1g0__fPzg1/view). 
+If you doubt you are eligible, feel free to [contact us](/contact).
+In case that your team does not meet the eligibility requirements, you can participate as a *spectator team*.
+
 Registration is done in the ICPC registration system, where all team members will need to make an account to sign up for the event.
 Registration is available for [competing teams](https://icpc.global/private/teamRegistration/site/32360)
 and [spectator teams](https://icpc.global/private/teamRegistration/site/32361).
