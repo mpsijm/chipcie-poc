@@ -10,7 +10,7 @@ students. The best teams will qualify to represent the Delft University of Techn
 The contest will take place on Saturday the 23rd of September 2023. The program will be posted here on a later date.
 
 For the contest there are two type of teams. First are *competing teams*, which are eligible for the contest following the
-ICPC rules. This requires all team members to be a student at the Delft Universtity of Technology and meet one of the following conditions:
+ICPC rules. This requires all team members to be a student at the Delft Universtity of Technology and meet **at least one** of the following conditions:
 * first year of post secondary studies in 2019 or later
 * Born in 2000 or later
 * Have not completed more than 240 points of ECTS
