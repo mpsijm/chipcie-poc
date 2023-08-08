@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="../style.css">	
+		<link rel="stylesheet" href="../style.css">
 	</head>
 	<body>
 		<table class="title">
@@ -11,7 +11,8 @@
 				</td>
 				<td style="width: 70%">
 					<h1>2. Hex</h1>
-					<h4>DAPC 2023 Final Teaser Puzzle</h2>
+					<h4>DAPC 2023 Final Teaser Puzzle</h4>
+					<!-- Source: BAPC preliminaries 2012, http://2012.bapc.eu/, CC BY-SA 3.0 -->
 				</td>
 			</tr>
 		</table>
@@ -42,7 +43,7 @@
 
 						<h2>Input</h2>
 						<ul>
-							<li> One line with one integer n (2 ≤ n ≤ 100): the size of the board (the number of cells
+							<li>One line with one integer n (2 &le; n &le; 100): the size of the board (the number of cells
 								along each edge).<br><br></li>
 							<li>
 								n lines with n characters: the i-th line lists the contents of the i-th diagonal of the board
@@ -51,7 +52,7 @@
 								first and the diagonal along the bottom right edge (A7-G7) is given last.
 								On each line, the first character represents the contents of the cell along the bottom left
 								edge (labeled A in the figure) and the last concerns the cell along the top right edge (G).
-								Each character is ‘B’, ‘W’ or ‘.’, representing a black stone, white stone, or empty cell
+								Each character is 'B', 'W' or '.', representing a black stone, white stone, or empty cell
 								respectively
 								<br><br>
 								The number of cells with black stones is equal to, or one more than, the number of cells with
@@ -61,13 +62,13 @@
 						</ul>
 						<h2>Output</h2>
 						<ul>
-							<li>One line with for each case a character: 
+							<li>One line with for each case a character:
 								<ul>
-									<li>2 if Black wins</li>
-									<li>1 if White wins</li>
-									<li>0 if the game has not finished</li>
+									<li>'0' if the game has not finished</li>
+									<li>'1' if Black wins</li>
+									<li>'2' if White wins</li>
 								</ul>
-								Append the characters for each case and output a single line for example "102012210201".
+								Append the characters for each case and output a single line, for example: "102012210201".
 							</li>
 						</ul>
 						<h2>Samples</h2>
@@ -112,11 +113,11 @@
 								<th>Next Puzzle</th>
 							</tr>
 							<tr>
-								<td class="code"><a href="hex.in">hex.in</a>
-</td>
+								<td class="code">
+									<a href="hex.in">hex.in</a>
+								</td>
 								<td class="code" style="text-align: center">
-									<span
-			 class="finaloutput">chipcie.wisv.ch/dapc/&ltOUTPUT&gt</span>
+									<span class="finaloutput">chipcie.wisv.ch/dapc/&lt;OUTPUT&gt;</span>
 								</td>
 							</tr>
 						</table>

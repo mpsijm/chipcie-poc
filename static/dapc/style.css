@@ -1,6 +1,6 @@
-* { 
+* {
 	margin: 0;
-	padding: 0; 
+	padding: 0;
 }
 
 @font-face {
@@ -20,7 +20,12 @@ ul, ol {
 	font-size: 120%;
 	margin: 20px 20px 50px 80px;
 }
- 
+
+ul ul, ul ol, ol ul, ol ol {
+	font-size: 100%;
+	margin: 20px 20px 20px 50px;
+}
+
 h2 {
 	color: white;
 	font-family: "Chivo";
@@ -92,7 +97,7 @@ div.rainbow {
 img.problemicon {
 	padding: 20px;
 	width: 30%;
-	float: right;	
+	float: right;
 }
 
 img.logo {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="../style.css">	
+		<link rel="stylesheet" href="../style.css">
 	</head>
 	<body>
 		<table class="title">
@@ -11,7 +11,8 @@
 				</td>
 				<td style="width: 70%">
 					<h1>1. H to O</h1>
-					<h4>DAPC 2023 First Teaser Puzzle</h2>
+					<h4>DAPC 2023 First Teaser Puzzle</h4>
+					<!-- Source: BAPC preliminaries 2018, https://2018.bapc.eu/problems.html, CC BY-SA 4.0 -->
 				</td>
 			</tr>
 		</table>
@@ -20,7 +21,7 @@
 			<div class="black" style="padding: 5px">
 				<div class="rainbow">
 					<div class="black" style="padding: 25px; overflow: hidden;">
-						<img src="p1_icon.png".png" class="problemicon">
+						<img src="p1_icon.png" class="problemicon">
 						<p>
 
 							Professor Cesium has created a new process to transform some chemical product into another type of chemical with some residues. The process is simple: he just
@@ -36,24 +37,26 @@
 							Molecules are written as string composed of upper case letters and numbers. Upper case letters
 							represent atoms. Note that Cesium only uses single letters of the alphabet as abbreviations
 							for atoms, so H, C, A, X, Y, ... can be used but He, Mg, ... can not. If a letter is not
-							followed by a number, it means there is only one atom of it. An atom followed by a number l
-							(1 ≤ l &#60 103) represents l copies of that atom. Atoms can appear multiple times in a chemical
-							product.
+							followed by a number, it means there is only one atom of it. An atom followed by a number <code>x</code>
+							(1 &le; <code>x</code> &lt; 100) represents <code>x</code> copies of that atom.
+							Atoms can appear multiple times in a chemical product.
 							<br><br>
-							For example: H2OC100H means 2 atoms of H, then 1 of O, then 100 of C then 1 of H again
+							For example: H2OC100H means 2 atoms of H, then 1 of O, then 100 of C then 1 of H again.
 
 						</p>
 
 						<h2>Input</h2>
 						<ul>
-							<li> Multiple cases of molecules with one input and one output. The first line specifies the number of 
-								cases, every subsequent two lines are one case. The first line of a case specifies the input molecule 
+							<li>Multiple cases of molecules with one input and one output. The first line specifies the number of
+								cases, every subsequent two lines are one case. The first line of a case specifies the input molecule
 								with a number for quantity, the second line specifies the output molecule.
+							</li>
 						</ul>
 						<h2>Output</h2>
 						<ul>
 							<li>The output consists of a single line of comma-seperated values indicating for each
 								case the number of output molecules that can be produced from the input.
+							</li>
 						</ul>
 						<h2>Samples</h2>
 						<table class="code">
@@ -90,11 +93,11 @@
 								<th>Next Puzzle</th>
 							</tr>
 							<tr>
-								<td class="code"><a href="h-to-o.in">h-to-o.in</a>
-</td>
+								<td class="code">
+									<a href="h-to-o.in">h-to-o.in</a>
+								</td>
 								<td class="code" style="text-align: center">
-									<span
-			 class="finaloutput">chipcie.wisv.ch/dapc/&ltOUTPUT&gt</span>
+									<span class="finaloutput">chipcie.wisv.ch/dapc/&lt;OUTPUT&gt;</span>
 								</td>
 							</tr>
 						</table>
