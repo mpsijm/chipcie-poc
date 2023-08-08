@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../style.css">	
+	</head>
+	<body>
+		<table class="title">
+			<tr>
+				<td>
+					<img src="../dapc_logo.png" class="logo">
+				</td>
+				<td style="width: 70%">
+					<h1>2. Hex</h1>
+					<h4>DAPC 2023 Final Teaser Puzzle</h2>
+				</td>
+			</tr>
+		</table>
+
+		<div class="rainbow" style="margin: 40px 10% 40px 10%">
+			<div class="black" style="padding: 5px">
+				<div class="rainbow">
+					<div class="black" style="padding: 25px; overflow: hidden;">
+						<img src="Game.png" class="problemicon">
+						<p>
+						Hex is a game for two players, played on a diamond-shaped board with hexagonal cells. At
+						the start of the game, all cells are empty. Each player in turn puts a stone of his own color
+						(black or white) in any empty cell. The goal for Black is to connect the top left edge of the
+						board with the bottom right edge, by making a path consisting of neighboring cells with
+						Black stones in them. White attempts to make a path from the top right to the bottom left.
+						The cells located in the corners of the diamond count as being adjacent to both corresponding
+						edges. The player to start the game is Black. An interesting feature of this game is that there
+						is always a winner: if all cells are filled and one player does not have a path connecting his
+						designated edges, then the other player automatically does have one
+						<br><br>
+						The image gives the game situation as described by the first test case in the sample input. Black has successfully
+						connected the top left edge and the bottom right edge and has therefore won the game.
+						<br><br>
+						Write a program which, given a game situation, determines which player has won, or that
+						the game has not yet finished.
+
+						</p>
+
+						<h2>Input</h2>
+						<ul>
+							<li> One line with one integer n (2 ≤ n ≤ 100): the size of the board (the number of cells
+								along each edge).<br><br></li>
+							<li>
+								n lines with n characters: the i-th line lists the contents of the i-th diagonal of the board
+								from the bottom left edge to the top right edge (these diagonals are labeled 1-7 in the
+								figure). The diagonal along the top left edge of the board (A1-G1 in the figure) is given
+								first and the diagonal along the bottom right edge (A7-G7) is given last.
+								On each line, the first character represents the contents of the cell along the bottom left
+								edge (labeled A in the figure) and the last concerns the cell along the top right edge (G).
+								Each character is ‘B’, ‘W’ or ‘.’, representing a black stone, white stone, or empty cell
+								respectively
+								<br><br>
+								The number of cells with black stones is equal to, or one more than, the number of cells with
+								white stones. The game situation can be such that one of the players had already won a few
+								turns earlier.
+							</li>
+						</ul>
+						<h2>Output</h2>
+						<ul>
+							<li>One line with for each case a character: 
+								<ul>
+									<li>2 if Black wins</li>
+									<li>1 if White wins</li>
+									<li>0 if the game has not finished</li>
+								</ul>
+								Append the characters for each case and output a single line for example "102012210201".
+							</li>
+						</ul>
+						<h2>Samples</h2>
+						<table class="code">
+							<tr>
+								<th>Sample Input</th>
+								<th>Sample Output</th>
+							</tr>
+							<tr>
+								<td class="code">
+									<a href="hex-sample.in">(hex-sample.in)</a><br>
+									3<br>
+									7<br>
+									.WBW...<br>
+									.BW.WW.<br>
+									.BBWBB.<br>
+									..BBWB.<br>
+									..BWBW.<br>
+									..BWB..<br>
+									.WWWB..<br>
+									5<br>
+									..B..<br>
+									.BBWB<br>
+									WWWBW<br>
+									B.WWB<br>
+									.B...<br>
+									4<br>
+									BBWB<br>
+									WWB.<br>
+									BWWB<br>
+									BWBW<br>
+								</td>
+								<td class="code">120</td>
+							</tr>
+							
+						</table>
+
+						<h2>Final Test</h2>
+						<table class="code">
+							<tr>
+								<th>Input</th>
+								<th>Next Puzzle</th>
+							</tr>
+							<tr>
+								<td class="code"><a href="hex.in">hex.in</a>
+</td>
+								<td class="code" style="text-align: center">
+									<span
+			 class="finaloutput">chipcie.wisv.ch/dapc/&ltOUTPUT&gt</span>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
