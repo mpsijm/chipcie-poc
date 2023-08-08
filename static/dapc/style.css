@@ -16,7 +16,7 @@ h1 {
 
 ul, ol {
 	color: white;
-	font-family: "Serif";
+	font-family: serif;
 	font-size: 120%;
 	margin: 20px 20px 50px 80px;
 }
@@ -36,7 +36,11 @@ h4 {
 p {
 	color: white;
 	font-size: 120%;
-	font-family: "Serif";
+	font-family: serif;
+}
+
+a {
+	color: #88f;
 }
 
 td.code {
@@ -44,7 +48,6 @@ td.code {
 	border-collapse: collapse;
 	width: 50%;
 	word-wrap: break-word;
-	font-family:monospace
 }
 
 table.code {
@@ -63,7 +66,7 @@ span.finaloutput {
 }
 
 td, th {
-	font-family: "Monospace";
+	font-family: monospace;
 	font-size: 130%;
 	color: white;
 	padding: 10px;
@@ -81,7 +84,7 @@ div.black {
 
 div.rainbow {
 	padding: 2px;
-	background-image: linear-gradient(90deg, #00C0FF 0%, #FF9900 49%, #4CFF4F 100%);
+	background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 50%, #FC4F4F 100%);
 	border-radius: 10px;
 
 }
