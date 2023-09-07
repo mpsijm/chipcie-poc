@@ -13,7 +13,7 @@ We also hope to invite some interesting guest speakers.
 Are you interested in participating? Want to be prepared or practice before the 2023 edition of the DAPC?
 You are welcome to attend the training sessions.
 The first session will be held on **Monday 11th of September** at 18:00. During this session, there will
-be the opportunity to meet new team members. The location will be announced as soon as possible.
+be the opportunity to meet new team members. The training will be held in hall G in the EEMCS building.
 
 The dates for the four training sessions are as follows:
 
