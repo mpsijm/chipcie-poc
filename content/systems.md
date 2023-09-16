@@ -30,27 +30,27 @@ The software configuration will consist of the following:
     - geany
     - kate
 - IDEs:
-    - IntelliJ Community
-        - Version: 2021.3.2
-        - Workspace is already set up
+    - Idea Community
+        - Version: 2022.3
+        - Workspace is already set up but needs to be opened from the welcome screen
         - Plugins:
-        - IdeaVim
+            - IdeaVim
     - CLion
-        - Version: 2021.3.3
+        - Version: 2022.3
         - Workspace is already set up
         - Plugins:
             - IdeaVim
     - PyCharm Community
-        - Version: 2021.3.2
+        - Version: 2022.3
         - Workspace is already set up
         - Plugins:
             - IdeaVim
     - Eclipse
-        - Version: 2021-12
+        - Version: 2022-12
         - Plugins:
             - PyDev
     - Visual Studio Code
-        - Version: 1.71.1
+        - Version: 1.82.2
         - Plugins:
             - C/C++ - Microsoft
             - C# - Microsoft
