@@ -30,7 +30,7 @@ The software configuration will consist of the following:
     - geany
     - kate
 - IDEs:
-    - Idea Community
+    - IntelliJ IDEA Community
         - Version: 2022.3
         - Workspace is already set up but needs to be opened from the welcome screen
         - Plugins:
