@@ -21,5 +21,5 @@ The dates for the four training sessions are as follows:
 |---------|------------------------------------------------------------------------------|----------------------------------------|
 | 11 Sept | Competing in a Contest, Estimating Complexity, Ad-hoc and Math Problems      | [link](/training/dapc23/session-1.pdf) |
 | 14 Sept | Team Tactics, Test Session, Problem Selection, Sorting and Search, Solutions | [link](/training/dapc23/session-2.pdf) |
-| 18 Sept | Team Reference, Interactive Problems, Dynamic Programming, Solutions         |                                        |
+| 18 Sept | Team Reference, Interactive Problems, Dynamic Programming, Solutions         | [link](/training/dapc23/session-3.pdf) |
 | 21 Sept | Tips and Tricks, Solutions to Hard Problems                                  |                                        |
