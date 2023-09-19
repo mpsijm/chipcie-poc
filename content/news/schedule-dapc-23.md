@@ -16,10 +16,9 @@ The contest will take place on the 23rd of September in [Drebbelweg](https://map
 * The use of other computers than the one provided is not allowed. This also includes mobile devices, smart watches, etc.
 * You are allowed to bring physical reference materials, such as books, cheat sheets, etc. Be aware though that on the BAPC you are only allowed to bring a “Team Reference Document” (TRD) consisting out of a maximum of 25 A4 pages. We will provide pen and paper, but you are free to bring your own.
 
-The CHipCie will be present the whole day. You can ask organizational or system questions to the people from the organization. They will be walking around the room. Any questions regarding the problem set during the contest will have to be asked to the jury through a clarification request within the DOMjudge interface.
+The CHipCie will be present the whole day. You can ask organizational or system questions to the people from the organization. They will be walking around the room. Any questions regarding the **problem set** during the contest will have to be asked to the jury through a clarification request within the DOMjudge interface.
 
-We highly recommend going through the DOMjudge manual as a team. This way, everyone  knows how the interface functions and everyone is up to date with the technical guidelines of the contest.
-
+We highly recommend going through the DOMjudge manual as a team. This way, everyone  knows how the interface functions and everyone is up to date with the technical guidelines of the contest.<br>
 Additionally, the BAPC jury has provided a website with advice, hints, and general advice [here](https://jury.bapc.eu/advice).
 
 The schedule of the day is as follows:
