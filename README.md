@@ -1,4 +1,4 @@
-# Proof of Concept new CHipCie site
+# CHipCie Website
 
 ## Before you Start
 

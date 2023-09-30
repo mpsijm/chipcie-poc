@@ -1,0 +1,13 @@
+contest:
+  name: DAPC 2023
+  date: September 23
+  type: dapc
+  year: 2023
+resources:
+  problems: problemset.pdf
+  slides: solutions.pdf
+  data: solutions.zip
+links:
+  photos:  # TODO
+  website:
+  result: /archive/2023/dapc/scoreboard/
