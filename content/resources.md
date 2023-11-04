@@ -38,13 +38,15 @@ Other situations that can occur during the contest:
 
 # During the Contest
 
-## Team Contest Reference (TCR)
-Starting from the BAPC, you are no longer allowed to bring all the documentation. Instead you can bring three identical
-copies of a Team Contest Reference (TCR). The TCR contains up to 25 single-sided (or 12 double-sided) A4 pages reference
-material. You are free to include everything you find your team might need during the contest, such as code listings,
+## Team Reference Document (TRD)
+Starting from the BAPC, you are no longer allowed to bring all the documentation.
+Instead, you can bring three identical copies of a Team Reference Document (TRD)
+(in the past, this was called a Team Contest Reference (TCR)).
+The TRD contains up to 25 single-sided (or 12 double-sided) A4 pages reference material.
+You are free to include everything you find your team might need during the contest, such as code listings,
 formulas, theorems (or the less commonly used motivational pictures, crosswords or a colouring page 😉️).
 
-As a starting point, you can look at public TCRs from other teams like:
+As a starting point, you can look at public TRDs from other teams like:
  * [TU Delft template](/resources/tcr-template.zip) ([pdf](/resources/tcr.pdf))
  * [Does god play Tetris](https://github.com/alexjbest/icpc-tcr/blob/master/teamref.pdf)
  * [Team hacKIT](https://github.com/niklasb/tcr/blob/master/tcr.pdf)
