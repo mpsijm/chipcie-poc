@@ -8,6 +8,6 @@ resources:
   slides: solutions.pdf
   data: solutions.zip
 links:
-  photos:
+  photos: https://www.flickr.com/photos/viafotocollectief/albums/72177720312286426
   website: https://2023.bapc.eu/
   result: /archive/2023/bapc/scoreboard/
