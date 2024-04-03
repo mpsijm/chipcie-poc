@@ -5,7 +5,7 @@ tags: ["FPC 2024"]
 draft: true
 ---
 
-Are you a freshmen and do you want to solve puzzles in a team with your friends? Then the Freshmen Programming Contest is for you!
+Are you a freshman and do you want to solve puzzles in a team with your friends? Then the Freshmen Programming Contest is for you!
 
 On the 4th of May, the annual Freshmen Programming Contest will be held. The puzzles are suited for both beginners and experts, so don't be afraid to join! This contest is a great opportunity for you to sharpen your programming and puzzling skills!
 
