@@ -9,7 +9,6 @@
 }
 
 h1 {
-	margin-left: 15%;
 	font-family: "Chivo";
 	color: white;
 }
@@ -28,7 +27,6 @@ h2 {
 }
 
 h4 {
-	margin-left: 20%;
 	font-family: "Chivo";
 	color: gray;
 }
@@ -113,4 +111,11 @@ table.title {
 
 body {
 	background-color: black;
+	max-width: 1200px;
+}
+
+html {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
