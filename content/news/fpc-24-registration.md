@@ -2,7 +2,7 @@
 title: "Freshmen Programming Contest 2024"
 date: 2024-03-13T12:00:00+02:00
 tags: ["FPC 2024"]
-draft: true
+draft: false
 ---
 
 Are you a freshman and do you want to solve puzzles in a team with your friends? Then the Freshmen Programming Contest is for you!
