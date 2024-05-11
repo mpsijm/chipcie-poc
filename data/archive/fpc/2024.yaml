@@ -11,4 +11,6 @@ links:
   photos: #https://ch.tudelft.nl/media/photos/?type_0=gallery&album_gallery_id_0=235
   website:
   result: /archive/2024/fpc/scoreboard/
-  merged: /archive/2024/fpc/merged-scoreboard/
+  scoreboards:
+    Merged: /archive/2024/fpc/merged-scoreboard/
+    Online: /archive/2024/fpc/online-scoreboard/

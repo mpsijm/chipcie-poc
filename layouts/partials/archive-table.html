@@ -38,12 +38,28 @@
     {{end}}
   </td>
   <td class="archive-link">
-    {{if .links.result}}
-    <a href="{{.links.result}}" target="_blank"><span class="material-symbols-outlined icon" title="Scoreboard">scoreboard</span></a>
-    {{end}}
-    {{if .links.merged}}
-    <a href="{{.links.merged}}" target="_blank"><span class="material-symbols-outlined icon" title="Merged">merge</span></a>
-    {{end}}
+    <div class="flex">
+      {{if .links.result}}
+      <a href="{{.links.result}}" target="_blank">
+        <span class="material-symbols-outlined icon" title="Scoreboard">
+          scoreboard
+        </span>
+      </a>
+      {{end}}
+      {{if .links.scoreboards}}
+      <div onmouseleave="this.children[1].style.display='none'" class="relative">
+        <span class="material-symbols-outlined icon" title="More" style="cursor:pointer"
+              onmouseenter="this.nextElementSibling.style.display='block'">
+          arrow_drop_down
+        </span>
+        <div class="absolute bg-white pa2 ba br3" style="display:none;top:1.5rem;right:0">
+          {{range $k, $v := .links.scoreboards}}
+          <a href="{{$v}}" target="_blank">{{$k}}</a><br />
+          {{end}}
+        </div>
+      </div>
+      {{end}}
+    </div>
   </td>
   <td class="archive-link">
     {{if .links.photos}}
