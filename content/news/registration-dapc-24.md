@@ -25,7 +25,7 @@ and [spectator teams](https://icpc.global/private/teamRegistration/site/37339).
 When creating a team, **DO** tick the box *“I will participate as both contestant and coach”*.
 The person who creates your team, will initially be the “contestant coach” of this team.
 
-The list of registered teams is [publicly available](https://icpc.global/regionals/finder/BAPC-Preliminaries-2024/teams).
+The list of registered teams is [publicly available](https://icpc.global/regionals/finder/BAPC-Preliminaries-2025/teams).
 
 For the best preparations, be sure to check out the [archive](/archive), [resources](/resources) and a [sample problem](/sample).
 A preliminary overview of the [programming environment](/systems) used during the contest is also available.
